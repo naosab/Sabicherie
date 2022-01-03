@@ -1,0 +1,216 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Neco:200,300,700,900');
+
+
+
+
+ /* responsive website */
+
+.containe{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+@media  (max-width: 500px){
+  body {
+  color: blue ;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    width: 300px;
+  }
+}
+
+
+* 
+{ 
+  max-width: 100%;
+  margin: 0; 
+  box-sizing: border-box;
+  background: #fff;
+  padding: 15px 3px;
+  color: rgb(0 0 0); 
+  font-family: Neco; 
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+
+
+} 
+
+
+
+body 
+{
+  min-height: 100vh; 
+}
+
+
+header  
+{
+position: fixed; 
+top: 0;
+left:0; 
+width: 100%; 
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s
+padding: 0px 15px;
+
+}
+
+
+
+ /* Sabicherie text */
+
+.logo 
+{
+position: relative;
+font-weight: 700; 
+text-decoration: none; 
+font-size: 2em
+text-transform: uppercase;
+transition: 0.6s; 
+display: table;
+color: rgb(131 14 14);
+font-size: 35px;
+line-height: 1.6em;
+text-align: right;
+flex: 1;
+margin: 0 75px;
+
+}
+
+.logo:hover
+{ 
+color: rgb(131 14 14);
+}
+
+
+
+ /* Header Menu / contact  */
+header ul
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+   position: relative;
+  margin: 0 15px; 
+  text-decoration: none;
+  font-weight: 500px; 
+  transition: 0.5s; 
+   width: 18%;
+
+}
+
+.Menu:hover
+{ 
+color: rgb(98 14 76 / 68%); 
+}
+
+
+
+.list-inline i {
+    font-family: 50px;
+    color: rgb(150,150,150);
+    }
+
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 25px;
+    }
+
+/* image*/
+
+  .img {
+  
+    max-width: 99%;
+    height: auto;
+    border-radius: 50%;
+    background-color: white;
+    margin: 120px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0,0.1);
+    padding: 20px;
+
+  }
+
+/* lemenu deuxieme part */
+
+section
+{ font-family: Neco;
+  width: 100%; 
+  min-height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family: Robotto;
+  background-color: transparent; 
+  align-items: center;
+
+}
+
+.left{
+    background-color: transparent;
+    position: relative;
+    left: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150%;
+    height: 100%;
+    left: 150px;
+ 
+}
+
+/* image menu */
+.img-2
+{ 
+    transform: rotate(90deg);
+    max-width: 99%;
+    background-color: white;
+    margin: 120px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0,0.1);
+    display: flex;
+    position: relative;
+    margin: 0%;
+    height: 130%
+
+
+    transform: rotate(90deg);
+  }
+
+
+.call
+{     background-color: transparent;
+    position: relative;
+    left: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150%;
+    height: 100%;
+    left: 150px;
+}
